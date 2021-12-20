@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/style.css">
+    <title>Welcome</title>
+</head>
+<body style="padding: 2rem 1.75rem;">
+
+    <button onclick="oly()" data-modal-target="#modal" id="open">open gallery</button>
+    <div class="modal" id="gallery">
+        
+        <!--<div class="item" style="height: 1.5em;"></div>
+        <div class="item" style="height: 1em;"></div>
+        <div class="item" style="height: 1em;"></div>
+        <div class="item" style="height: 1.5em;"></div>
+        <div class="item" style="height: 1.5em;"></div>
+        <div class="item" style="height: 1.5em;"></div>
+        <div class="item" style="height: 1em;"></div>
+        <div class="item" style="height: 1.5em;"></div>
+        <div class="item" style="height: 1em;"></div>
+        <div class="item" style="height: 1em;"></div>
+        <div class="item" style="height: 1em;"></div>-->
+    
+        <div class="modal-header">
+            <div class="title">Title</div>
+            <button onclick="oly()" data-close-button class="close">&times;</button>
+        </div>
+        <div class="modal-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore dicta quisquam aperiam excepturi perspiciatis repellat esse aut, cumque sit cum consequuntur vero accusantium quasi perferendis illo maxime saepe hic rem!
+        </div>
+    </div>
+    <div id="overlay" class=""></div>
+
+
+    <div class="over">
+        <div class="overimg">
+            <img src="/image/Golden-Cup.jpg" alt="">
+        </div>
+        <a href="/index.html" class="proceed">Welcome</a>
+    </div>
+
+
+    <button class="import" onclick="imprt()">?</button>
+
+    <div id="import_pop" style="height: 100%;"> </div>
+    
+    <img src="/image/Golden-Cup.jpg" alt="">
+
+    <script src="/app/js/online.js"></script>
+</body>
+</html>

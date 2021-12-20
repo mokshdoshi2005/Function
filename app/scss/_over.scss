@@ -1,0 +1,55 @@
+.overlay_a {
+    position: static;
+    background: hsl(188°, 98%, 50%);
+    //backgorund: rgb(3, 219, 252);
+    border-radius: 3px;
+    color: white;
+    align-content: center;
+    padding: 1.75rem 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    
+}
+
+.over{
+    display: flexbox;
+    position: relative;
+    border-radius: 15px;
+    background-color: rgba(71, 97, 211, 1);
+    height: 100%;
+    width: 280px;
+    max-width: 80%;
+    padding: 15px 17px;
+    top: 5%;
+    
+
+
+}
+
+.overimg {
+    height: 15rem;
+    width: 15rem;
+    
+    img{
+        border-radius: 2px;
+        height: 15rem;
+        width: 15rem;
+        border-bottom: 3px solid rgba(71, 97, 211, 1);
+    }
+}
+
+.proceed {
+
+    height: 100%;
+    width: 15rem;
+    // margin-top: 1.75rem;
+    
+    // background: rgb(38, 126, 139);
+    background: rgba(41, 55, 94, 1);
+    border-radius: 4.2px;
+    color: #FFFFFf;
+    padding: 1rem 1.25rem;
+    font-size: 35px;
+    margin-left: 7%;
+    
+}
