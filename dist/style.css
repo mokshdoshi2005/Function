@@ -346,7 +346,6 @@ header {
 }
 
 .card__img {
-  size-adjust: 20%;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1 / 4;
@@ -392,5 +391,12 @@ header {
   -ms-grid-row: 4;
   -ms-grid-row-span: 1;
   grid-row: 4 / 5;
+}
+
+.card__img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: inherit;
+  width: inherit;
 }
 /*# sourceMappingURL=style.css.map */
